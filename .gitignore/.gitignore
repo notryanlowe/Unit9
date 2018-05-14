@@ -1,0 +1,72 @@
+<html>
+<style>
+
+.preEditedWords {
+font-style: bold;
+font-color: black;
+}
+div{
+display: inline;
+}
+
+</style>
+
+
+<div class = "preEditedWords" id = "one"><strong>We</strong></div> have just started <div class = "preEditedWords" id = "two"><strong>this</strong></div> section for the users (<div class = "preEditedWords" id = "three"><strong>beginner</strong></div> to intermediate) who want to work with <div class = "preEditedWords" id = "four"><strong>various</div></strong> JavaScript<div class = "preEditedWords" id = "five"><strong>problems</strong></div> and write scripts online to <div class = "preEditedWords" id = "six"><strong>test</strong></div> their JavaScript <div class = "preEditedWords" id = "seven"><strong>skill.</strong></div>
+
+
+<script>
+var one = document.getElementById("one");
+var two = document.getElementById("two");
+var three = document.getElementById("three");
+var four = document.getElementById("four");
+var five = document.getElementById("five");
+var six = document.getElementById("six");
+var seven = document.getElementById("seven");
+
+one.addEventListener("mouseover", function() {
+	one.style.color = "red";
+});
+one.addEventListener("mouseout", function() {
+	one.style.color = "black";
+});
+
+two.addEventListener("mouseover", function() {
+	two.style.color = "red";
+});
+two.addEventListener("mouseout", function() {
+	two.style.color = "black";
+});
+three.addEventListener("mouseover", function() {
+	three.style.color = "red";
+});
+three.addEventListener("mouseout", function() {
+	three.style.color = "black";
+});
+four.addEventListener("mouseover", function() {
+	four.style.color = "red";
+});
+four.addEventListener("mouseout", function() {
+	four.style.color = "black";
+});
+five.addEventListener("mouseover", function() {
+	five.style.color = "red";
+});
+five.addEventListener("mouseout", function() {
+	five.style.color = "black";
+});
+six.addEventListener("mouseover", function() {
+	six.style.color = "red";
+});
+six.addEventListener("mouseout", function() {
+	six.style.color = "black";
+});
+seven.addEventListener("mouseover", function() {
+	seven.style.color = "red";
+});
+seven.addEventListener("mouseout", function() {
+	seven.style.color = "black";
+});
+
+</script>
+</html>
